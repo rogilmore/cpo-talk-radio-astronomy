@@ -1,0 +1,331 @@
+---
+title: "Fun with electromagnetic radiation"
+subtitle: "CPO August 2024"
+author: "Rick Gilmore W3TM"
+format: 
+  revealjs:
+    theme: default
+    chalkboard: true
+    preview-links: auto
+    background-transition: concave
+    fig-align: center
+    #footer: "[PSY 543 Spr 2024](../index.html)"
+    slide-number: true
+    multiplex: true
+bibliography: 'include/bib/astro-ham.bib'
+#bibliographystyle: apa
+---
+
+# Preliminaries
+
+## About me
+
+- B.A., Cognitive Science, Brown University
+- M.S. & Ph.D., Psychology (Cognitive Neuroscience), Carnegie Mellon University
+- Penn State 1997-
+- Human brain development, perception & action, computational modeling, machine vision, big data, open science
+
+---
+
+- Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC)
+- Co-Founder/Co-Director of [Databrary.org](https://databrary.org) data library
+- [gilmore-lab.github.io](https://gilmore-lab.github.io); [rick-gilmore.com](https://rick-gilmore.com); [w3tm.org](https://w3tm.org)
+
+---
+
+- banjo & harmonica player, actor, cyclist, backpacker, paddler, poet, ham ([W3TM](https://w3tm.org)), amateur astronomer
+- Judge of Elections (Precinct 26, State College East 3)
+- native Coloradoan, husband, dad, grandpa
+
+## Agenda
+
+- Planting seeds
+- Radio JOVE
+- HamSCI
+
+# Main
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- **July 1969**
+- 1974
+- Winter 1998
+- 2015
+- June 2016
+- Summer 2023
+:::
+
+::: {.column width="60%"}
+![[@Deiss2023-vh]](https://www.nasa.gov/wp-content/uploads/2019/07/edu_srch_celebrate_the_50th_anniversary_apollo11.jpg?resize=2048,1597)
+:::
+
+::::
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- July 1969
+- **1974**
+- Winter 1998
+- 2015
+- June 2016
+- Summer 2023
+:::
+
+::: {.column width="60%"}
+![[@Kb6nu2012-jk]](https://www.kb6nu.com/wp-content/uploads/2012/01/boys-life-jan-1959-400x505.jpg)
+:::
+
+::::
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- July 1969
+- 1974
+- **Winter 1999?**
+- 2015
+- June 2016
+- Summer 2023
+:::
+
+::: {.column width="60%"}
+![[@cpo-in-memory]](https://cpoclub.org/wp-content/uploads/2023/03/joegreg-1.jpg){width="70%"}
+:::
+
+::::
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- July 1969
+- 1974
+- Winter 1999?
+- **2015**
+- June 2016
+- Summer 2023
+:::
+
+::: {.column width="60%"}
+![[@Wikipedia-contributors2024-yh]](https://upload.wikimedia.org/wikipedia/en/c/cd/The_Martian_film_poster.jpg)
+:::
+
+::::
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- July 1969
+- 1974
+- Winter 1999?
+- 2015
+- **June 2016**
+- Summer 2023
+:::
+
+::: {.column width="60%"}
+![[@w3tm-blog]](https://w3tm.org/img/w3tm-qsl.png)
+:::
+
+::::
+
+## Planting seeds
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- July 1969
+- 1974
+- Winter 1999?
+- 2015
+- June 2016
+- **2023-24**
+:::
+
+::: {.column width="60%"}
+![[@W3tm2024-jg]](include/img/w3tm-merging-hobbies-blog.png)
+:::
+
+::::
+
+## Radio Astronomy
+
+![@em-spectrum-nasa](https://science.nasa.gov/wp-content/uploads/2023/04/intro_1-jpg.webp?w=4096&format=webp)
+
+---
+
+![@Wikipedia-contributors2024-lv](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/QuietSun_RadioImaging.jpg/1600px-QuietSun_RadioImaging.jpg)
+
+- Jupiter's "decametric" (wavelengths in 10s of meters) emissions [@jovian-decametric-emissions-nasa]
+
+## Radio JOVE
+
+- <https://radiojove.gsfc.nasa.gov>
+- Citizen science initiative
+- Radio astronomy, especially Solar and Jovian
+
+---
+
+{{< video https://www.youtube.com/embed/g1gWGKFPurw?si=8RgkiQxzI3MSRUp8 width="100%", height="70%">}}
+
+[@K4led2024-hz]
+
+::: aside
+
+Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
+
+:::
+
+---
+
+{{< video https://www.youtube.com/watch?v=L5KL0DZJOYw width="100%", height="70%">}}
+
+[@K4LED2023-wm]
+
+## Solar event 2023-06-20
+
+{{< video https://www.youtube.com/embed/fKyCoJ9gzb0?si=yLsbtEZTkLmSKXnw width="100%", height="70%">}}
+
+[@K4led2023-cn]
+
+---
+
+![Solar emissions on 2024-04-23](include/img/radio-JOVE-NASA.png)
+[@radio-JOVE-NASA-site]
+
+## Instrument
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- Double dipole antenna
+- Combiner
+- Phasing coax
+- Software Defined Radio (SDR)
+- Windows 10 PC
+:::
+
+::: {.column width="60%"}
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rj2.0_parts.png)
+:::
+::::
+
+---
+
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rj2.0_antenna.png)
+
+---
+
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/antenna_diagram.png)
+
+---
+
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rj2.0.png)
+
+## Software
+
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rss_solarbursts.jpg)
+
+---
+
+![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rj2.0_sw.png)
+
+## More info
+
+- Groups.io: <https://groups.io/g/radio-jove>
+- Project site: <https://radiojove.gsfc.nasa.gov>
+
+## HamSCI
+
+- Citizen science project involving amateur (ham) radio
+- <https://hamsci.org>
+
+## 2024-04-08 Solar Eclipse QSO Party
+
+![Source: <https://hamsci.org/article/april-8-2024-solar-eclipse-qso-party-first-results>](https://hamsci.org/sites/default/files/pages/eclipse_festival/20240408_SEQP_FirstResults.png)
+
+---
+
+>The April 8, 2024 HamSCI Total Solar Eclipse QSO Party (SEQP) first results are in! Over 52.7 million radio communications were observed over the continental United States using the PSKReporter, WSPRNet, and Reverse Beacon Network networks. Eclipse effects were observed between 18 to 21 UTC, particularly on the 1.8, 3.5, and 7 MHz bands. These bands all showed **enhancement in propagation** resulting from the eclipse, suggestive of a **reduction in D region absorption**. 
+
+[@hamsci-solar-eclipse-qso-party-wu]
+
+---
+
+>...The 14, 21, and 28 MHz bands also showed hints of eclipse impacts. A reduction in communications observed at near-ranges during the eclipse likely results from a **reduction in ionospheric electron densities** during this time. More analysis to be done in the future!
+
+[@hamsci-solar-eclipse-qso-party-wu]
+
+## W3TM contribution
+
+:::: {.columns}
+::: {.column width="70%"}
+![@rick-gilmore-blog-eclipse](https://rick-gilmore.com/posts/2024-04-11-wspr-rocks/w3tm-2024-04-08-20m.png)
+:::
+
+::: {.column width="30%"}
+![](https://rick-gilmore.com/posts/2024-04-09-total-eclipse/totality.jpg)
+:::
+::::
+
+## Weak signal propagation reporter (WSPR)
+
+- https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)
+- [Joe Taylor K1JT](https://en.wikipedia.org/wiki/Joseph_Hooton_Taylor_Jr.)
+
+---
+
+![@wspr-rocks-website](include/img/wspr.rocks-2024-07-24-0937.png){}
+
+# Summing up
+
+---
+
+![](https://www.basmati.com/sites/default/files/styles/large/public/2020-08/shutterstock_560935330.jpg?itok=GCz_E4AB)
+
+## Next steps
+
+- Radio JOVE
+  - CPO build portable or fixed instrument
+  - Join groups.io list
+  - Invite speaker?
+- HamSCI
+  - Invite speaker?
+- Joint project with NARC?
+
+## Fun with electromagnetic radiation
+
+<p style="text-align:center;">
+</br></br></br>
+**Rick Gilmore**</br>
+rick AT-SYMBOL w3tm PERIOD org</br>
+[github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
+[github.com/psu-psychology](https://github.com/psu-psychology)</br>
+[github.com/penn-state-open-science](https://github.com/penn-state-open-science)
+</p>
+
+# Resources
+
+## Code {.scrollable}
+
+This talk was produced on `r Sys.Date()` in [RStudio](http://rstudio.com) using [Quarto](https://quarto.org) and the [revealJS](https://quarto.org/docs/presentations/revealjs/) framework.
+
+The code and materials used to generate the slides may be found at <https://github.com/rogilmore/cpo-talk-radio-astronomy/>.
+Information about the R Session that produced the code is as follows:
+
+```{r session-info}
+sessionInfo()
+```
+
+## References
