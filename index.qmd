@@ -9,11 +9,12 @@ format:
     preview-links: auto
     background-transition: concave
     fig-align: center
-    #footer: "[PSY 543 Spr 2024](../index.html)"
+    footer: "[CPO 2024 August](index.html)"
     slide-number: true
     multiplex: true
+    css: include/css/slide-styles.css
 bibliography: 'include/bib/astro-ham.bib'
-#bibliographystyle: apa
+bibliographystyle: apa
 ---
 
 # Preliminaries
@@ -39,9 +40,23 @@ bibliography: 'include/bib/astro-ham.bib'
 
 ## Agenda
 
+:::: {.columns}
+
+::: {.column width="40%"}
 - Planting seeds
 - Radio JOVE
 - HamSCI
+:::
+
+::: {.column width="60%"}
+```{r}
+#| echo: false
+talk_qr <- qrcode::qr_code("https://rick-gilmore.com/cpo-talk-astronomy")
+plot(talk_qr)
+```
+:::
+
+::::
 
 # Main
 
@@ -253,19 +268,19 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 
 ## 2024-04-08 Solar Eclipse QSO Party
 
-![Source: <https://hamsci.org/article/april-8-2024-solar-eclipse-qso-party-first-results>](https://hamsci.org/sites/default/files/pages/eclipse_festival/20240408_SEQP_FirstResults.png)
+![[@hamsci-eclipse-2024-qso-party]](https://hamsci.org/sites/default/files/pages/eclipse_festival/20240408_SEQP_FirstResults.png)
 
 ---
 
 >The April 8, 2024 HamSCI Total Solar Eclipse QSO Party (SEQP) first results are in! Over 52.7 million radio communications were observed over the continental United States using the PSKReporter, WSPRNet, and Reverse Beacon Network networks. Eclipse effects were observed between 18 to 21 UTC, particularly on the 1.8, 3.5, and 7 MHz bands. These bands all showed **enhancement in propagation** resulting from the eclipse, suggestive of a **reduction in D region absorption**. 
 
-[@hamsci-solar-eclipse-qso-party-wu]
+[@hamsci-solar-eclipse-qso-party-wu]{.center-text}
 
 ---
 
 >...The 14, 21, and 28 MHz bands also showed hints of eclipse impacts. A reduction in communications observed at near-ranges during the eclipse likely results from a **reduction in ionospheric electron densities** during this time. More analysis to be done in the future!
 
-[@hamsci-solar-eclipse-qso-party-wu]
+[@hamsci-solar-eclipse-qso-party-wu]{.center-text}
 
 ## W3TM contribution
 
@@ -275,7 +290,7 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 :::
 
 ::: {.column width="30%"}
-![](https://rick-gilmore.com/posts/2024-04-09-total-eclipse/totality.jpg)
+![[@rick-gilmore-blog-totality]](https://rick-gilmore.com/posts/2024-04-09-total-eclipse/totality.jpg)
 :::
 ::::
 
@@ -286,7 +301,7 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 
 ---
 
-![@wspr-rocks-website](include/img/wspr.rocks-2024-07-24-0937.png){}
+![[@wspr-rocks-website]](include/img/wspr.rocks-2024-07-24-0937.png){}
 
 # Summing up
 
