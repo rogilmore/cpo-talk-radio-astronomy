@@ -19,6 +19,15 @@ bibliographystyle: apa
 
 # Preliminaries
 
+---
+
+```{r}
+#| echo: false
+#| label: "talk-qr-code"
+talk_qr <- qrcode::qr_code("https://rick-gilmore.com/cpo-talk-radio-astronomy")
+plot(talk_qr)
+```
+
 ## About me
 
 - B.A., Cognitive Science, Brown University
@@ -40,23 +49,9 @@ bibliographystyle: apa
 
 ## Agenda
 
-:::: {.columns}
-
-::: {.column width="40%"}
 - Planting seeds
 - Radio JOVE
 - HamSCI
-:::
-
-::: {.column width="60%"}
-```{r}
-#| echo: false
-talk_qr <- qrcode::qr_code("https://rick-gilmore.com/cpo-talk-astronomy")
-plot(talk_qr)
-```
-:::
-
-::::
 
 # Main
 
@@ -182,7 +177,11 @@ plot(talk_qr)
 
 ![@Wikipedia-contributors2024-lv](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/QuietSun_RadioImaging.jpg/1600px-QuietSun_RadioImaging.jpg)
 
+---
+
 - Jupiter's "decametric" (wavelengths in 10s of meters) emissions [@jovian-decametric-emissions-nasa]
+
+![[@radio-jove-science-site]](https://radiojove.gsfc.nasa.gov/images/jupiter_radio_emissions_overview.jpg)
 
 ## Radio JOVE
 
@@ -194,7 +193,7 @@ plot(talk_qr)
 
 {{< video https://www.youtube.com/embed/g1gWGKFPurw?si=8RgkiQxzI3MSRUp8 width="100%", height="70%">}}
 
-[@K4led2024-hz]
+[@K4led2024-hz]{.center-text}
 
 ::: aside
 
@@ -206,18 +205,18 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 
 {{< video https://www.youtube.com/watch?v=L5KL0DZJOYw width="100%", height="70%">}}
 
-[@K4LED2023-wm]
+[@K4LED2023-wm]{.center-text}
 
-## Solar event 2023-06-20
+---
 
 {{< video https://www.youtube.com/embed/fKyCoJ9gzb0?si=yLsbtEZTkLmSKXnw width="100%", height="70%">}}
 
-[@K4led2023-cn]
+[@K4led2023-cn]{.center-text}
 
 ---
 
 ![Solar emissions on 2024-04-23](include/img/radio-JOVE-NASA.png)
-[@radio-JOVE-NASA-site]
+[@radio-JOVE-NASA-site]{.center-text}
 
 ## Instrument
 
@@ -266,9 +265,11 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 - Citizen science project involving amateur (ham) radio
 - <https://hamsci.org>
 
-## 2024-04-08 Solar Eclipse QSO Party
+## 2024-04-08 Solar Eclipse QSO[^1] Party
 
-![[@hamsci-eclipse-2024-qso-party]](https://hamsci.org/sites/default/files/pages/eclipse_festival/20240408_SEQP_FirstResults.png)
+![[@hamsci-eclipse-2024-qso-party]](https://hamsci.org/sites/default/files/pages/eclipse_festival/20240408_SEQP_FirstResults.png){width="50%"}
+
+[^1]: A QSO is "ham-speak" for a two-way contact.
 
 ---
 
@@ -298,10 +299,11 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 
 - https://en.wikipedia.org/wiki/WSPR_(amateur_radio_software)
 - [Joe Taylor K1JT](https://en.wikipedia.org/wiki/Joseph_Hooton_Taylor_Jr.)
+- Many (weak) transmitters, many receivers
 
 ---
 
-![[@wspr-rocks-website]](include/img/wspr.rocks-2024-07-24-0937.png){}
+![[@wspr-rocks-website]](include/img/wspr.rocks-2024-07-24-0937.png){.center-text}
 
 # Summing up
 
@@ -322,7 +324,8 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 ## Fun with electromagnetic radiation
 
 <p style="text-align:center;">
-</br></br></br>
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/EM_Spectrum_Properties_edit.svg/660px-EM_Spectrum_Properties_edit.svg.png){width="40%"}
+</br>
 **Rick Gilmore**</br>
 rick AT-SYMBOL w3tm PERIOD org</br>
 [github.com/gilmore-lab](https://github.com/gilmore-lab)</br>
