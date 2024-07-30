@@ -35,17 +35,17 @@ plot(talk_qr)
 - Penn State 1997-
 - Human brain development, perception & action, computational modeling, machine vision, big data, open science
 
----
+<!-- --- -->
 
-- Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC)
-- Co-Founder/Co-Director of [Databrary.org](https://databrary.org) data library
-- [gilmore-lab.github.io](https://gilmore-lab.github.io); [rick-gilmore.com](https://rick-gilmore.com); [w3tm.org](https://w3tm.org)
+<!-- - Founding Director of Human Imaging, Penn State Social, Life & Engineering Sciences Imaging Center (SLEIC) -->
+<!-- - Co-Founder/Co-Director of [Databrary.org](https://databrary.org) data library -->
+<!-- - [gilmore-lab.github.io](https://gilmore-lab.github.io); [rick-gilmore.com](https://rick-gilmore.com); [w3tm.org](https://w3tm.org) -->
 
----
+<!-- --- -->
 
-- banjo & harmonica player, actor, cyclist, backpacker, paddler, poet, ham ([W3TM](https://w3tm.org)), amateur astronomer
-- Judge of Elections (Precinct 26, State College East 3)
-- native Coloradoan, husband, dad, grandpa
+<!-- - banjo & harmonica player, actor, cyclist, backpacker, paddler, poet, ham ([W3TM](https://w3tm.org)), amateur astronomer -->
+<!-- - Judge of Elections (Precinct 26, State College East 3) -->
+<!-- - native Coloradoan, husband, dad, grandpa -->
 
 ## Agenda
 
@@ -262,8 +262,62 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 
 ## HamSCI
 
-- Citizen science project involving amateur (ham) radio
 - <https://hamsci.org>
+- Citizen science project involving amateur (ham) radio
+- Study the atmosphere via amateur (ham) radio
+
+## Ham radio
+
+:::: {.columns}
+::: {.column width="40%"}
+- Hobby involving radio building, experimentation, & communication
+- Dozens of "modes": voice, Morse code, digital
+:::
+::: {.column width="60%"}
+![<http://www.w1hkj.com/modes/index.htm>](include/img/digital-mode-sights-sounds.png)
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+![](include/img/ham-fisted-radio.jpg)
+:::
+::: {.column width="50%"}
+![](include/img/arrl-band-chart.png)
+:::
+::::
+
+## Radio propagation
+
+:::: {.columns}
+::: {.column width="40%"}
+- Depends on frequency, sunspot cycle, season, latitude, time of day, antenna height/orientation, signal power, ...
+:::
+::: {.column width="60%"}
+![https://flatEarth.ws](include/img/radio-propagation.jpg){width="70%"}
+:::
+::::
+
+---
+
+![[@dxview-site] @ 2024-07-30 10:32 EDT](include/img/hf-propagation-2024-07-30-1032.png)
+
+---
+
+![@radio-jove-science-site](https://radiojove.gsfc.nasa.gov/education/activities/The%20Ionosphere_files/window.jpg)
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+![@space-weather-site](https://www.sws.bom.gov.au/Images/Educational/Other%20Topics/Radio%20Communication/ionosphere.png)
+:::
+::: {.column width="50%"}
+![@radio-jove-science-site](https://radiojove.gsfc.nasa.gov/education/activities/The%20Ionosphere_files/propo1.gif)
+:::
+::::
 
 ## 2024-04-08 Solar Eclipse QSO[^1] Party
 
@@ -319,7 +373,7 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
   - Invite speaker?
 - HamSCI
   - Invite speaker?
-- Joint project with NARC?
+- Joint project with NARC? or Discovery Space?
 
 ## Fun with electromagnetic radiation
 
