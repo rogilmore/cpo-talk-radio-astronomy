@@ -17,6 +17,11 @@ bibliography: 'include/bib/astro-ham.bib'
 bibliographystyle: apa
 ---
 
+---
+
+<iframe src="https://player.vimeo.com/video/117815404?h=e044921c26&title=0&byline=0" width="640" height="346" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/117815404">Riding Light</a> from <a href="https://vimeo.com/aswinehart">Alphonse Swinehart</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 # Preliminaries
 
 ---
