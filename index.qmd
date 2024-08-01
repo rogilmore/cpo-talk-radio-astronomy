@@ -24,6 +24,7 @@ bibliographystyle: apa
 ```{r}
 #| echo: false
 #| label: "talk-qr-code"
+#| fig-cap: "https://rick-gilmore.com/cpo-talk-radio-astronomy"
 talk_qr <- qrcode::qr_code("https://rick-gilmore.com/cpo-talk-radio-astronomy")
 plot(talk_qr)
 ```
