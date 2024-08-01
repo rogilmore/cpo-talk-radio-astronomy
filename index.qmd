@@ -184,6 +184,19 @@ plot(talk_qr)
 
 ![[@radio-jove-science-site]](https://radiojove.gsfc.nasa.gov/images/jupiter_radio_emissions_overview.jpg)
 
+## *Radio* Astronomy
+
+:::: {.columns}
+::: {.column width="40%"}
+- Just like optical astronomy, but...
+- Observing space objects' EM emissions in radio vs. optical wavelengths
+- "Images" in *time*/frequency
+:::
+::: {.column width="60%"}
+![https://en.wikipedia.org/wiki/Very_Long_Baseline_Array](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/VLBA_Owens_Valley.JPG/220px-VLBA_Owens_Valley.JPG)
+:::
+::::
+
 ## Radio JOVE
 
 - <https://radiojove.gsfc.nasa.gov>
@@ -255,6 +268,10 @@ Larry Dodd K4LED is a [ham](https://qrz.com/db/k4led).
 ---
 
 ![[@radio-JOVE-telescope-site]](https://radiojove.gsfc.nasa.gov/images/rj2.0_sw.png)
+
+## My status?
+
+![](https://kdjames.com/wp-content/uploads/2009/02/work-in-progress_2.jpg?w=251){fig-align="center"}
 
 ## More info
 
